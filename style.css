@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(230, 230, 230);
+  color: rgb(30, 30, 30);
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 20px;
+}
+h1, h2, h3 {
+  font-family: 'Dancing Script', cursive;
+}
+h1 {
+  color: red;
+  font-weight: 100;
+  letter-spacing: 6px;
+  font-size: 46px;
+  text-transform: uppercase;
+}
+h2 {
+	color: rgb(100, 100, 100);
+	font-size: 24px;
+	font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	color: blue;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 20px;
+}
+a:hover {
+	color: violet;
+}
+
+div {
+  background: white;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+
+/* Custom design with class*/
+.container {
+  width:  700px;
+  margin:  40px auto;
+  border-radius: 20px;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 45px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: :4px;
+}
+.btn-blue:hover {
+  background-color: violet;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i:hover {
+  font-size: 50px;
+  color: red;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+} 
